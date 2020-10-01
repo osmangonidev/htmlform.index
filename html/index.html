@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> This is title </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+        <form action="actiion.php" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <label for="car">Select a car:</label>
+            <select name="car" id="car">
+                <option value="bmw">BMW</option>
+                <option value="toyota">Toyota</option>
+            </select>
+            
+            <input type="submit" value="submit">
+            <br><br>
+            <label for="mobile">Choice a mobile: </label>
+            <select name="mobile" id="mobile">
+                <option value="vivo">Vivo</option>
+                <option value="Xioami">Xioami</option>
+            </select>
+            <input type="submit" value="submit">
+            <br><br>
+            <form action="action.php">
+                <input  list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="safari">
+                    <option value="chrome">
+                    
+
+                </datalist>
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+            <form action="action.php">
+                <label for="fname">Frist name:</label>
+                <input type="text" value="fname" id="fname">
+                <br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" value="lname" id="lname">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="text " value="email" id="email" >
+                <br><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+
+
+            </form>
+            <br><br>
+            <form action="action.php">
+                <input type="radio" id="male" value="male" name="gender" >
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="male" value="female" name="gender">
+            
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" id="male" value="other" name="gender" >
+                <label for="other">Other</label>
+                <br><br>
+                <input type="submit" value="submit">
+
+                
+                    
+                    
+            </form>
+            <br><br>
+            <form action="action.php">
+                
+                <input type="checkbox" id="a" value="b">
+                <label for="bike">Bike</label>
+                
+                <br>
+                <input type="checkbox" id="a" value="b">
+                <label for="Car">Car</label>
+                <br>
+                <input type="checkbox" id="a" value="b" >
+                <label for="bycicle">bycicke</label>
+
+            </form>
+            <br><br>
+            <form action="acton.php">
+                <label for="color">Select your favorite color:</label>
+                <input type="color" id="favcolor" name="favcolor">
+                <input type="submit" name="submit" id="favsubmit">
+            </form>
+            <form action="action.php">
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" id="birthday">
+                <input type="submit" name="submit" id="birthdaysubmit">
+            </form>
+            <br><br>
+            <form action="action.php">
+                <label for="birthdaytime">Birthdaytime(date and time)</label>
+                <input type="time" id="brthdaytime" name="irthdaytime">
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+            <form action="action.php">
+                <label for="email">Enter your email:</label>
+                <br>
+                <input type="email" id="email" placeholder=" Example: abc@gmail.com">
+                <input type="submit" value="submit">
+
+            </form>
+            <form action="action.php">
+                <label for="file">Select a file</label>
+                <br>
+                <input type="file" id="file" name="file">
+                <input type="submit" name="submit" id="submit">
+            </form>
+            <form action="action.php">
+                <label for="month">Select month and year</label>
+                <br>
+                <input type="month" name="month" id="month">
+                <input type="submit" value="submit">
+            </form>
+            <br><br>
+            <form action="action.php" method="GET">
+                <label for="number">Enter your phone number:</label>
+                <br>
+                <input type="number" name="nember" id="number">
+                <input type="submit" name="submit" id="submit">
+            </form>
+            <form action="action.php" method="GET">
+                <label for="vol">Volume(between 0  to 50)</label><br><br>
+                <input  type="range" name="vol" id="vol" min="1" max="50">
+                <input type="submit" name="submit" id="submit">
+
+            </form>
+            <form action="acton.php" method="POST">
+                <label for="gsearch">Search Google</label>
+                <input type="search" name="gsearch" id="gserch">
+                <br>
+                <input type="submit" name="submit" id="submit">
+                
+            </form>
+            <form action="action.php" method="POST">
+                <label for="tel">Enter a phone number:</label>
+                <br>
+                <input type="tel" name="tel" id="tel" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required >
+                <input type="submit" name="submit">
+            </form>
+            <form action="action.php">
+                <label for="url">Entet a url</label>
+                <br>
+                <input type="url" name="url" id="url">
+                <input type="submit" name="submit" id="submit" >
+            </form>
+            <form action="action.php">
+                <label for="week">Enter a week</label>
+                <br>
+                <input type="week" name="week" id="week" readonly>
+                <input type="submit" name="submit" id="submit">
+            </form>
+
+
+            
+        
+
+
+
+    </body>
+</html
